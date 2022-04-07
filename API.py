@@ -81,7 +81,7 @@ def url():
 
 	return url
 '''
-@app.route('/')
+@app.route('/test')
 def test():
 	y = 'YEAH'
 
