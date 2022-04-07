@@ -82,7 +82,7 @@ def url():
 	return url
 '''
 
-@app.route('/desordres', methods=['GET'])
+@app.route('/API_Recherche_de_desordres/desordres', methods=['GET'])
 def desordres():
 	#url = 'http://www.actis-assurances.com/downloads/sinistres/Expertise-Sinistre.pdf'
 	url = request.args.get('url')
