@@ -81,6 +81,12 @@ def url():
 
 	return url
 '''
+@app.route('/')
+def test():
+	y = 'YEAH'
+
+	return y
+
 
 @app.route('/API_Recherche_de_desordres/desordres', methods=['GET'])
 def desordres():
